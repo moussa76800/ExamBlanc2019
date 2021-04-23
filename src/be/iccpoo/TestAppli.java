@@ -8,17 +8,17 @@ public class TestAppli {
              RentedDisc rentedisc1=new RentedDisc("youssef", (float) 2.5, 0);
              RentedDisc rentedisc2=new RentedDisc("youssef", (float) 2.5,-4 );
              
-		try {
+//		try {
 			System.out.println(rentedisc.calculerPrixTotal());
 			System.out.println(rentedisc1.calculerPrixTotal());
 			System.out.println(rentedisc2.calculerPrixTotal());
 			
-		} catch (InvalidDurationException e) {
-			e.printStackTrace();
-			
-		}finally {
-			System.out.println("---veuillez revérifier la durée de location !---");
-		}
+//		} catch (InvalidDurationException e) {
+//			e.printStackTrace();
+//			
+//		}finally {
+//			System.out.println("---veuillez revérifier la durée de location !---");
+//		}
 		
 	}
 

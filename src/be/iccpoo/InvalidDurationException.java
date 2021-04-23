@@ -1,6 +1,6 @@
 package be.iccpoo;
 
-public class InvalidDurationException extends Exception {
+public class InvalidDurationException extends RuntimeException {
 
 	/**
 	 * 
